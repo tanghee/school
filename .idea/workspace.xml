@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="19c103b2-ae1b-4d5e-83f9-a5744a66de67" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="e432983b-cb55-47ce-b434-6539d3c73d2d" />
+  <component name="ProjectId" id="1m2ReKyHsOBB60tjRAjlJIaRQsz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Django Server.school">
+    <configuration name="makemg" type="Python.DjangoServer" factoryName="Django server">
+      <module name="school" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="school.settings" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="true" />
+      <option name="customRunCommand" value="makemigrations" />
+      <method v="2" />
+    </configuration>
+    <configuration name="migrate" type="Python.DjangoServer" factoryName="Django server">
+      <module name="school" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="school.settings" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="true" />
+      <option name="customRunCommand" value="migrate" />
+      <method v="2" />
+    </configuration>
+    <configuration name="school" type="Python.DjangoServer" factoryName="Django server">
+      <module name="school" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="school.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ssss" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/mig.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.school" />
+      <item itemvalue="Django Server.makemg" />
+      <item itemvalue="Django Server.migrate" />
+      <item itemvalue="Shell Script.ssss" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19c103b2-ae1b-4d5e-83f9-a5744a66de67" name="Default Changelist" comment="" />
+      <created>1608689793916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608689793916</updated>
+      <workItem from="1608689810490" duration="7780000" />
+      <workItem from="1608702564020" duration="8539000" />
+      <workItem from="1608715102429" duration="49000" />
+      <workItem from="1608715171997" duration="50000" />
+      <workItem from="1608715225013" duration="29000" />
+      <workItem from="1608715311411" duration="15000" />
+      <workItem from="1608715337627" duration="83000" />
+      <workItem from="1608715539519" duration="533000" />
+      <workItem from="1608771269016" duration="926000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="721" y="41" width="1071" height="994" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608771303610">
+      <screen x="0" y="25" width="1792" height="1010" />
+    </state>
+    <state x="721" y="41" width="1071" height="994" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1010@0.25.1792.1010" timestamp="1608771303610" />
+    <state x="1089" y="220" key="FileChooserDialogImpl" timestamp="1608708477088">
+      <screen x="0" y="25" width="1792" height="1010" />
+    </state>
+    <state x="1089" y="220" key="FileChooserDialogImpl/0.25.1792.1010@0.25.1792.1010" timestamp="1608708477088" />
+    <state width="917" height="271" key="GridCell.Tab.0.bottom" timestamp="1608716939456">
+      <screen x="0" y="25" width="1792" height="1010" />
+    </state>
+    <state width="917" height="271" key="GridCell.Tab.0.bottom/0.25.1792.1010@0.25.1792.1010" timestamp="1608716939456" />
+    <state width="917" height="271" key="GridCell.Tab.0.center" timestamp="1608716939455">
+      <screen x="0" y="25" width="1792" height="1010" />
+    </state>
+    <state width="917" height="271" key="GridCell.Tab.0.center/0.25.1792.1010@0.25.1792.1010" timestamp="1608716939455" />
+    <state width="917" height="271" key="GridCell.Tab.0.left" timestamp="1608716939455">
+      <screen x="0" y="25" width="1792" height="1010" />
+    </state>
+    <state width="917" height="271" key="GridCell.Tab.0.left/0.25.1792.1010@0.25.1792.1010" timestamp="1608716939455" />
+    <state width="917" height="271" key="GridCell.Tab.0.right" timestamp="1608716939456">
+      <screen x="0" y="25" width="1792" height="1010" />
+    </state>
+    <state width="917" height="271" key="GridCell.Tab.0.right/0.25.1792.1010@0.25.1792.1010" timestamp="1608716939456" />
+    <state width="229" height="457" key="HiddenNamespacesPopup" timestamp="1608694122630">
+      <screen x="0" y="25" width="1792" height="1010" />
+    </state>
+    <state width="229" height="457" key="HiddenNamespacesPopup/0.25.1792.1010@0.25.1792.1010" timestamp="1608694122630" />
+    <state x="738" y="25" key="SettingsEditor" timestamp="1608773304567">
+      <screen x="0" y="25" width="1792" height="1010" />
+    </state>
+    <state x="738" y="25" key="SettingsEditor/0.25.1792.1010@0.25.1792.1010" timestamp="1608773304567" />
+    <state x="912" y="266" key="Vcs.Push.Dialog.v2" timestamp="1608773309926">
+      <screen x="0" y="25" width="1792" height="1010" />
+    </state>
+    <state x="912" y="266" key="Vcs.Push.Dialog.v2/0.25.1792.1010@0.25.1792.1010" timestamp="1608773309926" />
+    <state x="979" y="248" width="670" height="676" key="search.everywhere.popup" timestamp="1608705632564">
+      <screen x="0" y="25" width="1792" height="1010" />
+    </state>
+    <state x="979" y="248" width="670" height="676" key="search.everywhere.popup/0.25.1792.1010@0.25.1792.1010" timestamp="1608705632564" />
+  </component>
+</project>
