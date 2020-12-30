@@ -21,9 +21,10 @@ def create_teachers():
 
 
 class TestTeachers(TestCase):
+
     def test_create_teacher(self):
         teacher = create_teacher()
-        self.assertIsNotNone(teacher)
+        self.assertIsNotNone(teacher, None)
 
     def test_create_teachers(self):
         create_teachers()
