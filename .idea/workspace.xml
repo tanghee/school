@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19c103b2-ae1b-4d5e-83f9-a5744a66de67" name="Default Changelist" comment="" />
+    <list default="true" id="19c103b2-ae1b-4d5e-83f9-a5744a66de67" name="Default Changelist" comment="git school commit">
+      <change afterPath="$PROJECT_DIR$/time_table/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time_table/management/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time_table/management/commands/create_schools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time_table/models/time_table_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time_table/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time_table/tests/test_students.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time_table/tests/test_study_rooms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time_table/tests/test_subjects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time_table/tests/test_teachers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time_table/tests/test_time_table_records.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time_table/tests/test_time_tables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/school.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/school.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_table/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/time_table/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_table/models/study_room.py" beforeDir="false" afterPath="$PROJECT_DIR$/time_table/models/study_room.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_table/models/subject.py" beforeDir="false" afterPath="$PROJECT_DIR$/time_table/models/subject.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_table/models/time_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/time_table/models/time_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_table/tests.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +51,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="JupyterTrust" id="e432983b-cb55-47ce-b434-6539d3c73d2d" />
   <component name="ProjectId" id="1m2ReKyHsOBB60tjRAjlJIaRQsz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,11 +68,118 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/time_table/management/commands" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Django Server.school">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/time_table/management/commands" />
+      <recent name="$PROJECT_DIR$/time_table/models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django tests.Test: time_table.tests.test_time_table_records.TestTimeTableRecords.test_create_time_table_record">
+    <configuration name="Test: time_table.tests.test_students.TestStudents.test_create_student" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="school" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="time_table.tests.test_students.TestStudents.test_create_student" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: time_table.tests.test_study_rooms.TestStudyRooms.test_create_study_room" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="school" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="time_table.tests.test_study_rooms.TestStudyRooms.test_create_study_room" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: time_table.tests.test_subjects.TestSubjects.test_create_subject" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="school" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="time_table.tests.test_subjects.TestSubjects.test_create_subject" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: time_table.tests.test_teachers.TestTeachers.test_create_teacher" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="school" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="time_table.tests.test_teachers.TestTeachers.test_create_teacher" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: time_table.tests.test_time_table_records.TestTimeTableRecords.test_create_time_table_record" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="school" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="time_table.tests.test_time_table_records.TestTimeTableRecords.test_create_time_table_record" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="makemg" type="Python.DjangoServer" factoryName="Django server">
       <module name="school" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -53,9 +188,9 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="school.settings" />
       </envs>
-      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
@@ -76,9 +211,9 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="school.settings" />
       </envs>
-      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
@@ -101,7 +236,7 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
@@ -124,6 +259,8 @@
       <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
       <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="ssss" type="ShConfigurationType">
@@ -135,14 +272,30 @@
       <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
       <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <envs />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django Server.school" />
       <item itemvalue="Django Server.makemg" />
       <item itemvalue="Django Server.migrate" />
+      <item itemvalue="Django Server.school" />
+      <item itemvalue="Django tests.Test: time_table.tests.test_teachers.TestTeachers.test_create_teacher" />
+      <item itemvalue="Django tests.Test: time_table.tests.test_subjects.TestSubjects.test_create_subject" />
+      <item itemvalue="Django tests.Test: time_table.tests.test_students.TestStudents.test_create_student" />
+      <item itemvalue="Django tests.Test: time_table.tests.test_study_rooms.TestStudyRooms.test_create_study_room" />
+      <item itemvalue="Django tests.Test: time_table.tests.test_time_table_records.TestTimeTableRecords.test_create_time_table_record" />
       <item itemvalue="Shell Script.ssss" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: time_table.tests.test_time_table_records.TestTimeTableRecords.test_create_time_table_record" />
+        <item itemvalue="Django tests.Test: time_table.tests.test_study_rooms.TestStudyRooms.test_create_study_room" />
+        <item itemvalue="Django tests.Test: time_table.tests.test_teachers.TestTeachers.test_create_teacher" />
+        <item itemvalue="Django tests.Test: time_table.tests.test_students.TestStudents.test_create_student" />
+        <item itemvalue="Django tests.Test: time_table.tests.test_subjects.TestSubjects.test_create_subject" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -160,53 +313,75 @@
       <workItem from="1608715311411" duration="15000" />
       <workItem from="1608715337627" duration="83000" />
       <workItem from="1608715539519" duration="533000" />
-      <workItem from="1608771269016" duration="926000" />
+      <workItem from="1608771269016" duration="6867000" />
+      <workItem from="1608779979722" duration="74000" />
+      <workItem from="1608780066883" duration="151000" />
+      <workItem from="1608780438120" duration="130000" />
+      <workItem from="1608780682000" duration="576000" />
+      <workItem from="1608782034367" duration="33000" />
+      <workItem from="1608782087766" duration="66000" />
+      <workItem from="1608782156728" duration="1777000" />
+      <workItem from="1608788278355" duration="10289000" />
+      <workItem from="1609116818787" duration="23170000" />
+      <workItem from="1609203154390" duration="173000" />
+      <workItem from="1609207465043" duration="19242000" />
+      <workItem from="1609289787264" duration="274000" />
     </task>
+    <task id="LOCAL-00001" summary="git school commit">
+      <created>1608773406100</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608773406100</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="721" y="41" width="1071" height="994" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608771303610">
-      <screen x="0" y="25" width="1792" height="1010" />
-    </state>
-    <state x="721" y="41" width="1071" height="994" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1010@0.25.1792.1010" timestamp="1608771303610" />
-    <state x="1089" y="220" key="FileChooserDialogImpl" timestamp="1608708477088">
-      <screen x="0" y="25" width="1792" height="1010" />
-    </state>
-    <state x="1089" y="220" key="FileChooserDialogImpl/0.25.1792.1010@0.25.1792.1010" timestamp="1608708477088" />
-    <state width="917" height="271" key="GridCell.Tab.0.bottom" timestamp="1608716939456">
-      <screen x="0" y="25" width="1792" height="1010" />
-    </state>
-    <state width="917" height="271" key="GridCell.Tab.0.bottom/0.25.1792.1010@0.25.1792.1010" timestamp="1608716939456" />
-    <state width="917" height="271" key="GridCell.Tab.0.center" timestamp="1608716939455">
-      <screen x="0" y="25" width="1792" height="1010" />
-    </state>
-    <state width="917" height="271" key="GridCell.Tab.0.center/0.25.1792.1010@0.25.1792.1010" timestamp="1608716939455" />
-    <state width="917" height="271" key="GridCell.Tab.0.left" timestamp="1608716939455">
-      <screen x="0" y="25" width="1792" height="1010" />
-    </state>
-    <state width="917" height="271" key="GridCell.Tab.0.left/0.25.1792.1010@0.25.1792.1010" timestamp="1608716939455" />
-    <state width="917" height="271" key="GridCell.Tab.0.right" timestamp="1608716939456">
-      <screen x="0" y="25" width="1792" height="1010" />
-    </state>
-    <state width="917" height="271" key="GridCell.Tab.0.right/0.25.1792.1010@0.25.1792.1010" timestamp="1608716939456" />
-    <state width="229" height="457" key="HiddenNamespacesPopup" timestamp="1608694122630">
-      <screen x="0" y="25" width="1792" height="1010" />
-    </state>
-    <state width="229" height="457" key="HiddenNamespacesPopup/0.25.1792.1010@0.25.1792.1010" timestamp="1608694122630" />
-    <state x="738" y="25" key="SettingsEditor" timestamp="1608773304567">
-      <screen x="0" y="25" width="1792" height="1010" />
-    </state>
-    <state x="738" y="25" key="SettingsEditor/0.25.1792.1010@0.25.1792.1010" timestamp="1608773304567" />
-    <state x="912" y="266" key="Vcs.Push.Dialog.v2" timestamp="1608773309926">
-      <screen x="0" y="25" width="1792" height="1010" />
-    </state>
-    <state x="912" y="266" key="Vcs.Push.Dialog.v2/0.25.1792.1010@0.25.1792.1010" timestamp="1608773309926" />
-    <state x="979" y="248" width="670" height="676" key="search.everywhere.popup" timestamp="1608705632564">
-      <screen x="0" y="25" width="1792" height="1010" />
-    </state>
-    <state x="979" y="248" width="670" height="676" key="search.everywhere.popup/0.25.1792.1010@0.25.1792.1010" timestamp="1608705632564" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git school commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="git school commit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_students_TestStudents_test_create_students.coverage" NAME="Test: time_table.tests.test_students.TestStudents.test_create_students Coverage Results" MODIFIED="1609226521153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_study_rooms_TestStudyRooms.coverage" NAME="Test: time_table.tests.test_study_rooms.TestStudyRooms Coverage Results" MODIFIED="1609226015191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_study_rooms_TestStudyRooms_test_create_study_room.coverage" NAME="Test: time_table.tests.test_study_rooms.TestStudyRooms.test_create_study_room Coverage Results" MODIFIED="1609231565895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_TestStudents.coverage" NAME="Test: time_table.tests.TestStudents Coverage Results" MODIFIED="1608790619120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_time_table_records_TestTimeTableRecords_test_create_time_table_record.coverage" NAME="Test: time_table.tests.test_time_table_records.TestTimeTableRecords.test_create_time_table_record Coverage Results" MODIFIED="1609232340645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_students_TestStudents_test_create_student.coverage" NAME="Test: time_table.tests.test_students.TestStudents.test_create_student Coverage Results" MODIFIED="1609231251536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_TestStudents_test_create_study_with_rooms.coverage" NAME="Test: time_table.tests.TestStudents.test_create_study_with_rooms Coverage Results" MODIFIED="1608792570628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_study_rooms_TestStudyRooms_test_create_time_table_with_study_rooms.coverage" NAME="Test: time_table.tests.test_study_rooms.TestStudyRooms.test_create_time_table_with_study_rooms Coverage Results" MODIFIED="1609212730241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_study_rooms_TestStudyRooms_test_create_student_and_time_table_with_study_rooms.coverage" NAME="Test: time_table.tests.test_study_rooms.TestStudyRooms.test_create_student_and_time_table_with_study_rooms Coverage Results" MODIFIED="1609226527590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_time_tables_TestTimeTables_test_create_time_tables.coverage" NAME="Test: time_table.tests.test_time_tables.TestTimeTables.test_create_time_tables Coverage Results" MODIFIED="1609226639434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_study_rooms_TestStudyRooms_test_create_study_rooms.coverage" NAME="Test: time_table.tests.test_study_rooms.TestStudyRooms.test_create_study_rooms Coverage Results" MODIFIED="1609225997237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_time_tables_TestTimeTables_test_create_subject_with_time_tables.coverage" NAME="Test: time_table.tests.test_time_tables.TestTimeTables.test_create_subject_with_time_tables Coverage Results" MODIFIED="1609131005178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_subjects_TestSubjects_test_create_subjects.coverage" NAME="Test: time_table.tests.test_subjects.TestSubjects.test_create_subjects Coverage Results" MODIFIED="1609226883294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_subjects_TestSubjects.coverage" NAME="Test: time_table.tests.test_subjects.TestSubjects Coverage Results" MODIFIED="1609140800138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_teachers_TestTeachers_test_create_teacher.coverage" NAME="Test: time_table.tests.test_teachers.TestTeachers.test_create_teacher Coverage Results" MODIFIED="1609231351985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_time_tables_TestTimeTables_test_create_study_room_with_time_tables.coverage" NAME="Test: time_table.tests.test_time_tables.TestTimeTables.test_create_study_room_with_time_tables Coverage Results" MODIFIED="1609133237191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_teachers_TestTeachers_test_create_study_room_with_teachers.coverage" NAME="Test: time_table.tests.test_teachers.TestTeachers.test_create_study_room_with_teachers Coverage Results" MODIFIED="1609208957374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_study_rooms_TestStudyRooms_test_create_student_with_study_rooms.coverage" NAME="Test: time_table.tests.test_study_rooms.TestStudyRooms.test_create_student_with_study_rooms Coverage Results" MODIFIED="1609210163705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_time_table_records_TestTimeTableRecords_test_create_time_table_records.coverage" NAME="Test: time_table.tests.test_time_table_records.TestTimeTableRecords.test_create_time_table_records Coverage Results" MODIFIED="1609226650707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_teachers_TestTeachers.coverage" NAME="Test: time_table.tests.test_teachers.TestTeachers Coverage Results" MODIFIED="1609208992426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_TestStudents_test_create_students.coverage" NAME="Test: time_table.tests.TestStudents.test_create_students Coverage Results" MODIFIED="1608792588207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_subjects_TestSubjects_test_create_subject.coverage" NAME="Test: time_table.tests.test_subjects.TestSubjects.test_create_subject Coverage Results" MODIFIED="1609230753930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_TestStudents_test_create_study_rooms.coverage" NAME="Test: time_table.tests.TestStudents.test_create_study_rooms Coverage Results" MODIFIED="1608792580958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_teachers_TestTeachers_test_create_subject_with_teachers.coverage" NAME="Test: time_table.tests.test_teachers.TestTeachers.test_create_subject_with_teachers Coverage Results" MODIFIED="1609130979420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_time_tables_TestTimeTables_test_time_table.coverage" NAME="Test: time_table.tests.test_time_tables.TestTimeTables.test_time_table Coverage Results" MODIFIED="1609133419889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/school$Test__time_table_tests_test_teachers_TestTeachers_test_create_teachers.coverage" NAME="Test: time_table.tests.test_teachers.TestTeachers.test_create_teachers Coverage Results" MODIFIED="1609226673017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

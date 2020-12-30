@@ -2,12 +2,9 @@ from django.db import models
 
 
 class TimeTable(models.Model):
-    DAY_OF_WEEK_CHOICES = (
-        ('MON', 'MON'),
-        ('TUE', 'TUE'),
-        ('WED', 'WED'),
-        ('THU', 'THU'),
-        ('FRI', 'FRI'),
+    study_room = models.ForeignKey(
+        'time_table.StudyRoom',
+        related_name='study_room_time_tables',
+        on_delete=models.SET_NULL,
+        null=True,
     )
-    period = models.IntegerField()
-    day_of_week = models.CharField(max_length=45, choices=DAY_OF_WEEK_CHOICES)
